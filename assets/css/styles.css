@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d3d3d3;
+}
+.header {
+    background-color: #d3d3d3;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    background-image: url('../images/your-logo-url');
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.marquee {
+    background-color: #ff9900;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.content {
+    padding: 20px;
+}
+.section {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+}
+h1, h2 {
+    color: #333;
+}
+p {
+    color: #666;
+}
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
